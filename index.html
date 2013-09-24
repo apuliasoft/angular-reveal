@@ -1,0 +1,816 @@
+<!doctype html>
+<html lang="it">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>AngularJS</title>
+
+		<meta name="description" content="A brief introduction">
+		<meta name="author" content="ApuliaSoft">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/solarized_cust.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<!-- Start reveal -->
+		<div class="reveal">
+
+			<!-- Start slides -->
+			<div class="slides">
+				<!-- Mean Stack -->
+                <section>
+                    <section>
+                        <h1>AngulasJS</h1>
+                        <br>
+                        <div style="display: inline-block; width: 49%; height: 400px;">
+                            <img src="img/nicola.jpg">
+                            <p>Nicola Sanitate</p>
+                        </div>
+                        <div style="display: inline-block; width: 49%; height: 400px;">
+                            <img src="img/giuseppe.jpg">
+                            <p>Giuseppe Santoro</p>
+                        </div>
+                    </section>
+
+
+                    <section data-background="yellow">
+                        <h1>Chi siamo</h1>
+                        <h3>di giorno</h3>
+                        <br>
+                        <div style="display: inline-block; width: 49%; height: 400px;">
+                            <img src="img/apuliasoft.png">
+                        </div>
+                    </section>
+
+
+                    <section data-background="#000030">
+                        <h1>Chi siamo</h1>
+                        <h3>di notte</h3>
+                        <br>
+                        <div style="display: inline-block; width: 49%; height: 400px;">
+                            <img src="img/cds.png">
+                        </div>
+                    </section>
+                </section>
+
+                <!-- AngularJS -->
+                <section>
+                    <section>
+                        <img src="img/angularjs.jpg">
+                        <p>
+                            Superheroic JavaScript MVW Framework<br>
+                            &nbsp;
+                        </p>
+                    </section>
+                    <section>
+                        <img src="img/angularjs.jpg">
+                        <p>
+                            HTML enhanced for web apps!<br>
+                            &nbsp;
+                        </p>
+                    </section>
+                    <section>
+                        <img src="img/angularjs.jpg">
+                        <p>
+                            AngularJS is what HTML would have been,<br>
+                            had it been designed for building web-apps.
+                        </p>
+                    </section>
+                </section>
+
+                <!-- Storia -->
+                <section>
+                    <section>
+                        <h1>C'era una volta...</h1>
+                    </section>
+                    <section>
+                        <h2>2009 @ Google Inc.</h2>
+                    </section>
+                    <section>
+                        <h2>Google Feedback</h2>
+                        <ul>
+                            <li>6 mesi di progetto</li>
+                            <li>17.000 linee di codice front-end</li>
+                            <li>sviluppo lento</li>
+                            <li>codice poco testabile</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Frustrazione</h2>
+                        <img src="img/frustration.png">
+                    </section>
+                    <section>
+                        <img src="img/misko-hevery.jpg">
+                        <h3>Misko Hevery</h3>
+                    </section>
+                    <section>
+                        <h2>Misko Hevery</h2>
+                        <p>dice di voler riscrivere l'intero progetto</p>
+                        <p class="fragment">da solo</p>
+                        <p class="fragment">in 2 settimane</p>
+                        <p class="fragment">con una libreria open-source che ha creato lui per hobby</p>
+                    </section>
+                    <section>
+                        <h2>Misko Hevery</h2>
+                        <p>Fallisce</p>
+                        <p class="fragment">ci mette 3 settimane</p>
+                        <p class="fragment">porta le linee di codice da 17.000 a 1.500</p>
+                    </section>
+                    <section>
+                        <h2>AngularJS</h2>
+                        <p>progetto patrocinato da Google</p>
+                        <p class="fragment">394 contributors in tutto il mondo</p>
+                        <p class="fragment">su GitHub sotto MIT License</p>
+                    </section>
+                </section>
+
+                <!-- Concepts -->
+                <section>
+                    <h1>Concetti</h1>
+                    <ul>
+                        <li>Client-Side Templates</li>
+                        <li>Model View Controller</li>
+                        <li>Data Binding</li>
+                        <li>Dependency Injection</li>
+                    </ul>
+                </section>
+
+                <!-- Client-Side Templates -->
+                <section>
+                    <section>
+                        <h1>Client-Side Templates</h1>
+                    </section>
+                    <section>
+                        <h2>Server-Side Templates</h2>
+                        <ul>
+                            <li>Il server assembla i dati e il markup</li>
+                            <li>Il browser riceve l'HTML e lo mostra</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Client-Side Templates</h2>
+                        <ul>
+                            <li>Il server invia dati e markup</li>
+                            <li>Il browser assembla l'HTML e lo mostra</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Confronto</h2>
+                        <div>
+                            <div style="display: inline-block;width: 49%">
+                                <h4>Server-Side Templates</h4>
+                        <pre><code class="html">
+&lt;table>
+    &lt;tr>
+        &lt;td>Totale:&lt;/td>
+        &lt;td>1000 €&lt;/td>
+    &lt;/tr>
+&lt;/table>
+                        </code></pre>
+                            </div>
+                            <div style="display: inline-block;width: 49%">
+                                <h4>Client-Side Templates</h4>
+                        <pre><code class="html">
+&lt;table>
+    &lt;tr>
+        &lt;td>Totale:&lt;/td>
+        &lt;td>{{total}} €&lt;/td>
+    &lt;/tr>
+&lt;/table>
+                        </code></pre>
+                        <pre><code class="javascript">
+{total: 1000}
+                        </code></pre>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h2>Esempio</h2>
+                        <div class="fragment">
+                            <h4>index.html</h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="862" height="305">
+                                <rect width="862" height="305" style="fill:#3f3f3f;" />
+                                <g>
+                                    <text style="font-size:20px;fill:#e1c9ad;font-family:Sans">
+                                        <tspan x="25" y="35" style="">&lt;html <tspan class="fragment" data-fragment-index="2">ng-app</tspan>&gt;</tspan>
+                                        <tspan x="50" y="60">&lt;head&gt;</tspan>
+                                        <tspan class="fragment" data-fragment-index="1">
+                                            <tspan x="75" y="85">&lt;script src=<tspan style="fill:#cc9393;">&quot;angular.js&quot;</tspan>&gt;&lt;/script&gt;</tspan>
+                                            <tspan x="75" y="110">&lt;script src=<tspan style="fill:#cc939f;">&quot;controllers.js&quot;</tspan>&gt;&lt;/script&gt;</tspan>
+                                        </tspan>
+                                        <tspan x="50" y="135">&lt;/head&gt;</tspan>
+                                        <tspan x="50" y="160">&lt;body&gt;</tspan>
+                                        <tspan class="fragment" data-fragment-index="3">
+                                            <tspan x="75" y="185">&lt;div ng-controller=<tspan style="fill:#cc9393;">'GreetingCtrl'</tspan>&gt;</tspan>
+                                            <tspan x="100" y="210">&lt;p&gt;<tspan style="fill:#dcdcdf;">{{greeting.text}}, World!</tspan>&lt;/p&gt;</tspan>
+                                            <tspan x="75" y="235">&lt;/div&gt;</tspan>
+                                        </tspan>
+                                        <tspan x="50" y="260">    &lt;/body&gt;</tspan>
+                                        <tspan x="25" y="285">&lt;/html&gt;</tspan>
+                                    </text>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="fragment">
+                            <h4>controller.js</h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="862" height="105">
+                                <rect width="862" height="330" style="fill:#3f3f3f;" />
+                                <g>
+                                    <text style="font-size:20px;fill:#dcdcdf;font-family:Sans">
+                                        <tspan x="25" y="35"><tspan style="fill:#e1c9ad;">function</tspan> <tspan style="fill:#efef8f;">GreetingCtrl</tspan> (<tspan style="fill:#e1c9ad;">$scope</tspan>) {</tspan>
+                                        <tspan x="50" y="60"><tspan style="fill:#e1c9ad;">$scope</tspan>.greeting = { text: <tspan style="fill:#cc9393;">'Hello'</tspan> };</tspan>
+                                        <tspan x="25" y="85">}</tspan>
+                                    </text>
+                                </g>
+                            </svg>
+                        </div>
+                    </section>
+
+                    <!-- NOTE:
+                     * Nessuna classe o IDs nel HTML per identificare un event listeners.
+                     * Quando HelloController setta greeting.text ad Hello, non abbiamo registrato alcun event listeners o scritto alcun callbacks.
+                     * HelloController è un file JavaScript, e non eredita da nulla fornito da Angular.
+                     * HelloController possiede l'oggetto $scope senza averlo creato.
+                     * Non abbiamo bisogno di chiamare il costruttore di HelloController o sapere quando chiamarlo.
+                     -->
+                </section>
+
+                <!-- Model View Controller -->
+                <section>
+                    <section>
+                        <h1>Model View Controller</h1>
+                    </section>
+                    <section>
+                        <h2>Vantaggi</h2>
+                        <ul>
+                            <li>modello mentale su dove posizionare il codice</li>
+                            <li>facilità per chi deve capire cosa c'è scritto nel codice</li>
+                            <li>applicazione più <b>estendibile</b>, <b>manutenibile</b> e <b>testabile</b></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>MVC in AngularJS</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="640" height="480">
+                            <defs>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" style="fill:#000000;" />
+                                </marker>
+                            </defs>
+                            <g class="fragment" data-fragment-index="1">
+                                <rect width="160" height="160" x="30" y="30" style="fill:#008000;stroke:#008000;stroke-width:20;stroke-linejoin:round;" />
+                                <text x="70" y="120" style="font-size:30px;font-weight:bold;fill:#ffffff;font-family:Sans;">View</text>
+                            </g>
+                            <g class="fragment" data-fragment-index="3">
+                                <rect width="160" height="160" x="55" y="150" style="fill:#ff0000;stroke:#ff0000;stroke-width:20;stroke-linejoin:round;" />
+                                <text x="50" y="240" style="font-size:30px;font-weight:bold;fill:#ffffff;font-family:Sans;">Controller</text>
+                            </g>
+                            <g class="fragment" data-fragment-index="5">
+                                <rect width="160" height="160" x="80" y="270" style="fill:#0000ff;stroke:#0000ff;stroke-width:20;stroke-linejoin:round;" />
+                                <text x="110" y="360" style="font-size:30px;font-weight:bold;fill:#ffffff;font-family:Sans;">Model</text>
+                            </g>
+                            <g class="fragment" data-fragment-index="2">
+                                <g>
+                                    <rect width="160" height="160" x="385" y="30" style="fill:#008000;stroke:#008000;stroke-width:20;stroke-linejoin:round" />
+                                    <text x="430" y="120" style="font-size:30px;font-weight:bold;fill:#ffffff;font-family:Sans;">DOM</text>
+                                </g>
+                                <path d="m 167.3988,77.52427 c 58.7591,-53.77694 181.27814,-53.22385 239.4329,0" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:round;marker-end:url(#TriangleOutM);" />
+                            </g>
+                            <g class="fragment" data-fragment-index="4">
+                                <g>
+                                    <rect width="160" height="160" x="410" y="150" style="fill:#ff0000;stroke:#ff0000;stroke-width:20;stroke-linejoin:round;" />
+                                    <text x="415" y="240" style="font-size:30px;font-weight:bold;fill:#ffffff;font-family:Sans;">Funzione</text>
+                                </g>
+                                <path d="m 192.3988,197.52427 c 58.7591,-53.77694 181.27814,-53.22385 239.4329,0" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:round;marker-end:url(#TriangleOutM);" />
+                            </g>
+                            <g class="fragment" data-fragment-index="6">
+                                <g>
+                                    <rect width="160" height="160" x="435" y="270" style="fill:#0000ff;stroke:#0000ff;stroke-width:20;stroke-linejoin:round;" />
+                                    <text x="450" y="360" style="font-size:30px;font-weight:bold;fill:#ffffff;font-family:Sans;">Oggetto</text>
+                                </g>
+                                <path d="m 217.3988,317.52427 c 58.7591,-53.77694 181.27814,-53.22385 239.4329,0" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:round;marker-end:url(#TriangleOutM);" />
+                            </g>
+                        </svg>
+                    </section>
+                </section>
+
+                <!-- Data Binding -->
+                <section>
+                    <section>
+                        <h1>Data Binding</h1>
+                    </section>
+                    <section>
+                        <h2>Prima di AJAX</h2>
+                        <p>Tecnologie come Rails, PHP e JSP aiutavano a creare UI fondendo markup e dati prima di inviarli all'utente</p>
+                    </section>
+                    <section>
+                        <h2>Con l'arrivo di AJAX</h2>
+                        <p>Questo modello è stato esteso grazie alla possibilità di aggiornare parti del DOM separatamente</p>
+                    </section>
+                    <section>
+                        <h2>Problema</h2>
+                        <p>Ho due rappresentazioni dei dati!</p>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="640" height="480">
+                            <defs id="defs4">
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="Arrow1Mend" style="overflow:visible">
+                                    <path d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" transform="matrix(-0.4,0,0,-0.4,-4,0)" id="path3966" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="Arrow1Lend" style="overflow:visible">
+                                    <path d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" transform="matrix(-0.8,0,0,-0.8,-10,0)" id="path3960" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <filter color-interpolation-filters="sRGB" id="filter4822">
+                                    <feFlood result="flood" flood-color="rgb(0,0,0)" flood-opacity="0.5" id="feFlood4824" />
+                                    <feComposite in2="SourceGraphic" operator="in" in="flood" result="composite1" id="feComposite4826" />
+                                    <feGaussianBlur result="blur" stdDeviation="5" id="feGaussianBlur4828" />
+                                    <feOffset result="offset" dy="0" dx="0" id="feOffset4830" />
+                                    <feComposite in2="offset" operator="over" in="SourceGraphic" result="composite2" id="feComposite4832" />
+                                </filter>
+                                <filter color-interpolation-filters="sRGB" id="filter4834">
+                                    <feFlood result="flood" flood-color="rgb(0,0,0)" flood-opacity="0.5" id="feFlood4836" />
+                                    <feComposite in2="SourceGraphic" operator="in" in="flood" result="composite1" id="feComposite4838" />
+                                    <feGaussianBlur result="blur" stdDeviation="5" id="feGaussianBlur4840" />
+                                    <feOffset result="offset" dy="0" dx="0" id="feOffset4842" />
+                                    <feComposite in2="offset" operator="over" in="SourceGraphic" result="composite2" id="feComposite4844" />
+                                </filter>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-7" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-6" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-71" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-8" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-9" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-1" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-6" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-63" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-8" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-0" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-1" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-02" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-64" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-7" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-88" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-4" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-2" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-84" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-5" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-10" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-96" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-5" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-83" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-48" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-50" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-56" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-93" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-08" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-60" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-60" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-3" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-87" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-66" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-71" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-4" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-53" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-78" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-46" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-67" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-58" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-781" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-75" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                                <marker refX="0" refY="0" orient="auto" id="TriangleOutM-73" style="overflow:visible">
+                                    <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" id="path4102-3" style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+                                </marker>
+                            </defs>
+                            <g transform="translate(0,-572.36218)" id="layer1">
+                                <g id="ui">
+                                    <rect width="120" height="400" x="120" y="612.36218" id="rect2987" style="fill:#0000ff;fill-opacity:1;filter:url(#filter4822)" />
+                                    <text x="156.31836" y="826.65906" id="text2989" xml:space="preserve" style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+                            <tspan x="156.31836" y="826.65906" id="tspan2991" style="font-weight:bold;fill:#ffffff;-inkscape-font-specification:Sans Bold">UI</tspan>
+                        </text>
+                                </g>
+                                <g id="js">
+                                    <rect width="120" height="400" x="400" y="612.36218" id="rect2985" style="fill:#ff0000;fill-opacity:1;filter:url(#filter4834)" />
+                                    <text x="440.72266" y="823.20203" id="text2993" xml:space="preserve" style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+                            <tspan x="440.72266" y="823.20203" id="tspan2995" style="font-weight:bold;fill:#ffffff;-inkscape-font-specification:Sans Bold">JS</tspan>
+                        </text>
+                                </g>
+                                <g id="utente" class="fragment">
+                                    <path d="m 27.142857,750.62021 c 0,0 -5.714286,65.71429 60.000003,75.71429" id="path5026" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+                                    <image xlink:href="img/user-icon.png" x="4" y="644.36218" width="96" height="96" id="image5895" />
+                                </g>
+                                <g id="server" class="fragment">
+                                    <path d="m 612.15949,874.10415 c 0,0 5.71428,-65.71429 -60.00001,-75.71429" id="path5026-2" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+                                    <image xlink:href="img/server-icon.png" x="540" y="884.36218" width="96" height="96" id="image5833" />
+                                </g>
+                                <g id="frecce" class="fragment">
+                                    <path d="m 372.00463,652.83224 c 0,0 -42.42641,-50.50763 -95.9645,-11.11168" id="path5026-2-8" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+                                    <path d="m 267.99537,691.6313 c 0,0 42.42641,50.50763 95.9645,11.11168" id="path5026-2-8-8-99" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+                                    <path d="m 267.99537,685.30243 c 0,0 42.42641,-50.50763 95.9645,-11.11168" id="path5026-2-8-8-02" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+                                    <path d="m 267.99537,789.04185 c 0,0 42.42641,50.50763 95.9645,11.11168" id="path5026-2-8-8-19" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+                                    <path d="m 372.00462,912.59372 c 0,0 -42.42641,-50.50763 -95.9645,-11.11168" id="path5026-2-8-8-4" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+                                    <path d="m 372.00462,821.51204 c 0,0 -42.42641,50.50763 -95.9645,11.11168" id="path5026-2-8-8-82" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+                                    <path d="m 267.99537,750.2428 c 0,0 42.42641,-50.50763 95.9645,-11.11168" id="path5026-2-8-8-40" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+                                    <path d="m 372.00462,782.71298 c 0,0 -42.42641,-50.50763 -95.9645,-11.11168" id="path5026-2-8-8-05" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+                                    <path d="m 267.99537,880.12353 c 0,0 42.42641,-50.50763 95.9645,-11.11168" id="path5026-2-8-8-026" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+                                    <path d="m 267.99537,1010.0043 c 0,0 42.42641,-50.50766 95.9645,-11.1117" id="path5026-2-8-8-35" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+                                    <path d="m 267.99537,945.06391 c 0,0 42.42641,-50.50763 95.9645,-11.11168" id="path5026-2-8-8-5" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+                                    <path d="m 372.00462,951.39277 c 0,0 -42.42641,50.50763 -95.9645,11.11168" id="path5026-2-8-8-66" style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+                                </g>
+                            </g>
+                        </svg>
+                    </section>
+                    <section>
+                        <img src="img/panic.png">
+                    </section>
+                    <section>
+                        <h2>Data Binding</h2>
+                        <p>
+                            Se mappate una parte della UI con una proprietà Javascript<br>
+                            AngularJS le manterrà sincronizzate automaticamente
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>Esempio</h2>
+                        <h4>index.html</h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="862" height="330">
+                            <rect width="862" height="330" style="fill:#3f3f3f;" />
+                            <g>
+                                <text style="font-size:20px;fill:#e1c9ad;font-family:Sans">
+                                    <tspan x="25" y="35" style="">&lt;html ng-app&gt;</tspan>
+                                    <tspan x="50" y="60">&lt;head&gt;</tspan>
+                                    <tspan x="75" y="85">&lt;script src=<tspan style="fill:#cc9393;">&quot;angular.js&quot;</tspan>&gt;&lt;/script&gt;</tspan>
+                                    <tspan x="75" y="110">&lt;script src=<tspan style="fill:#cc939f;">&quot;controllers.js&quot;</tspan>&gt;&lt;/script&gt;</tspan>
+                                    <tspan x="50" y="135">&lt;/head&gt;</tspan>
+                                    <tspan x="50" y="160">&lt;body&gt;</tspan>
+                                    <tspan x="75" y="185">&lt;div ng-controller=<tspan style="fill:#cc9393;">'GreetingCtrl'</tspan>&gt;</tspan>
+                                    <tspan class="fragment">
+                                        <tspan x="100" y="210">&lt;input ng-model=<tspan style="fill:#cc9393;">'greeting.text'</tspan>&gt;</tspan>
+                                    </tspan>
+                                    <tspan x="100" y="235">&lt;p&gt;<tspan style="fill:#dcdcdf;">{{greeting.text}}, World!</tspan>&lt;/p&gt;</tspan>
+                                    <tspan x="75" y="260">&lt;/div&gt;</tspan>
+                                    <tspan x="50" y="285">&lt;/body&gt;</tspan>
+                                    <tspan x="25" y="310">&lt;/html&gt;</tspan>
+                                </text>
+                            </g>
+                        </svg>
+                    </section>
+                </section>
+
+                <!-- Dependency Injection -->
+                <section>
+                    <section>
+                        <h1>Dependency Injection</h1>
+                    </section>
+                    <section>
+                        <h2>Dependency Injection</h2>
+                        <p>
+                            Le classi non creano dipendenze,<br>
+                            ma chiedono ciò di cui hanno bisogno
+                        </p>
+                    </section>
+                    <section>
+                        <h2>Esempio</h2>
+                        <h4>controller.js</h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="862" height="105">
+                            <rect width="862" height="330" style="fill:#3f3f3f;" />
+                            <g>
+                                <text style="font-size:20px;fill:#dcdcdf;font-family:Sans">
+                                    <tspan x="25" y="35"><tspan style="fill:#e1c9ad;">function</tspan> <tspan style="fill:#efef8f;">GreetingCtrl</tspan> (<tspan style="fill:#e1c9ad;">$scope</tspan>, <tspan class="fragment" style="fill:#e1c9ad;">$location</tspan>) {</tspan>
+                                    <tspan x="50" y="60"><tspan style="fill:#e1c9ad;">$scope</tspan>.greeting = { text: <tspan style="fill:#cc9393;">'Hello'</tspan><tspan class="fragment">, url: <tspan style="fill:#e1c9ad;">$location</tspan>.absUrl()</tspan> };</tspan>
+                                    <tspan x="25" y="85">}</tspan>
+                                </text>
+                            </g>
+                        </svg>
+
+                        <h4>index.html</h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="862" height="355">
+                            <rect width="862" height="355" style="fill:#3f3f3f;" />
+                            <g>
+                                <text style="font-size:20px;fill:#e1c9ad;font-family:Sans">
+                                    <tspan x="25" y="35">&lt;html ng-app&gt;</tspan>
+                                    <tspan x="50" y="60">&lt;head&gt;</tspan>
+                                    <tspan x="75" y="85">&lt;script src=<tspan style="fill:#cc9393;">&quot;angular.js&quot;</tspan>&gt;&lt;/script&gt;</tspan>
+                                    <tspan x="75" y="110">&lt;script src=<tspan style="fill:#cc939f;">&quot;controllers.js&quot;</tspan>&gt;&lt;/script&gt;</tspan>
+                                    <tspan x="50" y="135">&lt;/head&gt;</tspan>
+                                    <tspan x="50" y="160">&lt;body&gt;</tspan>
+                                    <tspan x="75" y="185">&lt;div ng-controller=<tspan style="fill:#cc9393;">'GreetingCtrl'</tspan>&gt;</tspan>
+                                    <tspan x="100" y="210">&lt;input ng-model=<tspan style="fill:#cc9393;">'greeting.text'</tspan>&gt;</tspan>
+                                    <tspan x="100" y="235">&lt;p&gt;<tspan style="fill:#dcdcdf;">{{greeting.text}}, World!</tspan>&lt;/p&gt;</tspan>
+                                    <tspan class="fragment">
+                                        <tspan x="100" y="260">&lt;p&gt;<tspan style="fill:#dcdcdf;">Welcome to {{greeting.url}}</tspan>&lt;/p&gt;</tspan>
+                                    </tspan>
+                                    <tspan x="75" y="285">&lt;/div&gt;</tspan>
+                                    <tspan x="50" y="310">&lt;/body&gt;</tspan>
+                                    <tspan x="25" y="335">&lt;/html&gt;</tspan>
+                                </text>
+                            </g>
+                        </svg>
+                    </section>
+                    <section>
+                        <h2>Vantaggi</h2>
+                        <ul>
+                            <li class="fragment">Basso accoppiamento</li>
+                            <li class="fragment">Riusabilità</li>
+                            <li class="fragment">Testabilità</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Volete saperne di più?</h2>
+                        <img src="img/martin-fowler.jpg">
+                        <p>
+                            <a href="http://martinfowler.com/articles/injection.html">http://martinfowler.com/articles/injection.html</a>
+                        </p>
+                    </section>
+                </section>
+
+                <section>
+                    <h1>Estendere AngularJS</h1>
+                    <img width="700" src="img/puzzle.png" alt="estensioni">
+                </section>
+
+                <section>
+                    <h1>Medodi di estensione</h1>
+                    <ul>
+                        <li>
+                            <h3>Module</h3>
+                        </li>
+                        <li>
+                            <h3>Service</h3>
+                        </li>
+                        <li>
+                            <h3>Filter</h3>
+                        </li>
+                        <li>
+                            <h3>Directive</h3>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>Module</h1>
+                </section>
+
+                <section>
+
+                    <section>
+                        <h1>Service</h1>
+                    </section>
+
+                    <section>
+                        <h2>Ispirati ai servizi lato server</h2>
+                    </section>
+
+                    <section>
+                        <h2>Servizi built-in</h2>
+                        <ul>
+                            <li>$http</li>
+                            <li>$location</li>
+                            <li>$q</li>
+                            <li>$route</li>
+                            <li>$document</li>
+                            <li>...</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Demo</h2>
+                    </section>
+
+                </section>
+
+                <section>
+
+                    <section>
+                        <h1>Filter</h1>
+                    </section>
+
+                    <section>
+                        <h2>1243898.766</h2>
+                        <br />
+                        <div class="fragment">
+                            <p>currency</p>
+                            <h3>|</h3>
+                            <h3>|</h3>
+                            <h3>V</h3>
+                        </div>
+                        <br />
+                        <h2 class="fragment">€ 1.243.898,77</h2>
+                    </section>
+
+                    <section>
+                        <h2>2013-24-03 12:32:12.1532</h2>
+                        <br />
+                        <div class="fragment">
+                            <p>date</p>
+                            <h3>|</h3>
+                            <h3>|</h3>
+                            <h3>V</h3>
+                        </div>
+                        <br />
+                        <h2 class="fragment">24 Marzo 2013</h2>
+                    </section>
+
+                    <section>
+                        <h2>Demo</h2>
+                    </section>
+
+                    <section>
+                        <h2>[ 2, 0.1, 5, 0.45, 2.34 ]</h2>
+                        <br />
+                        <div class="fragment">
+                            <p>greaterThenOne</p>
+                            <h3>|</h3>
+                            <h3>|</h3>
+                            <h3>V</h3>
+                        </div>
+                        <br />
+                        <h2 class="fragment">[ 2, 5, 2.34 ]</h2>
+                    </section>
+
+                    <section>
+                        <h2>[ 2, 0.1, 5, 0.45, 2.34 ]</h2>
+                        <br />
+                        <div class="fragment">
+                            <p>sort</p>
+                            <h3>|</h3>
+                            <h3>|</h3>
+                            <h3>V</h3>
+                        </div>
+                        <br />
+                        <h2 class="fragment">[ 0.1, 0.45, 2, 2.34, 5 ]</h2>
+                    </section>
+
+                    <section>
+                        <h2>[ 2, 0.1, 5, 0.45, 2.34 ]</h2>
+                        <br />
+                        <div class="fragment">
+                            <p>sort<b class="fragment">:descending</b></p>
+                            <h3>|</h3>
+                            <h3>|</h3>
+                            <h3>V</h3>
+                        </div>
+                        <br />
+                        <h2 class="fragment">[ 5, 2.34, 2, 0.45, 0.1 ]</h2>
+                    </section>
+
+                    <section>
+                        <h2>[ 2, 0.1, 5, 0.45, 2.34 ]</h2>
+                        <br />
+                        <div class="fragment">
+                            <p>sort:descending<b class="fragment"> | </b><b class="fragment">greaterThenOne</b></p>
+                            <h3>|</h3>
+                            <h3>|</h3>
+                            <h3>V</h3>
+                        </div>
+                        <br />
+                        <h2 class="fragment">[ 5, 2.34, 2 ]</h2>
+                    </section>
+
+                    <section>
+                        <ul>
+                            <li>date</li>
+                            <li>filter</li>
+                            <li>json</li>
+                            <li>limitTo</li>
+                            <li>lowercase</li>
+                            <li>number</li>
+                            <li>orderBy</li>
+                            <li>uppercase</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Demo</h2>
+                    </section>
+
+                </section>
+
+                <section>
+
+                    <section>
+                        <h1>Directive</h1>
+                        <ul>
+                            <li class="fragment"><h3>Modificare il DOM</h3></li>
+                            <li class="fragment"><h3>Estensione della grammatica del web</h3></li>
+                            <li class="fragment"><h3>Riuso di componenti grafici</h3></li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <p>E' possibile modificare il DOM</p>
+                        <p>senza utilizzare una direttiva?</p>
+                    </section>
+
+                    <section>
+                        <h2>SI</h2>
+                    </section>
+
+                    <section>
+                        <p>E' corretto farlo?</p>
+                    </section>
+
+                    <section>
+                        <img width="700" src="img/no.gif" alt="no">
+                    </section>
+
+                    <section>
+                        <h1>NO</h1>
+                    </section>
+
+                    <section>
+                        <h2>Demo</h2>
+                    </section>
+
+                </section>
+
+                <!-- Domande -->
+                <section>
+                    <h1 style="line-height: 200px"><img src="img/logo.png">ny questions?</h1>
+                </section>
+
+                <!-- Grazie -->
+                <section>
+                    <h1 style="line-height: 200px"><img src="img/logo.png">rigatou</h1>
+                </section>
+		  </div>
+			<!-- End slides -->
+
+		</div>
+		<!-- End reveal -->
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				rolling_links: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

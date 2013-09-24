@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480">
+  <defs>
+    <marker refX="0" refY="0" orient="auto" id="TriangleOutM" style="overflow:visible">
+      <path d="m 5.77,0 -8.65,5 0,-10 8.65,5 z" transform="scale(0.4,0.4)" style="fill:#ffff00;" />
+    </marker>
+  </defs>
+  <g>
+    <rect width="160" height="160" x="30" y="30" style="fill:#00ff00;stroke:#00ff00;stroke-width:20;stroke-linejoin:round;" />
+    <text x="70" y="120" style="font-size:30px;font-weight:bold;fill:#ffffff;font-family:Sans;">View</text>
+  </g>
+  <g>
+    <rect width="160" height="160" x="55" y="150" style="fill:#ff0000;stroke:#ff0000;stroke-width:20;stroke-linejoin:round;" />
+    <text x="50" y="240" style="font-size:30px;font-weight:bold;fill:#ffffff;font-family:Sans;">Controller</text>
+  </g>
+  <g>
+    <rect width="160" height="160" x="80" y="270" style="fill:#0000ff;stroke:#0000ff;stroke-width:20;stroke-linejoin:round;" />
+    <text x="110" y="360" style="font-size:30px;font-weight:bold;fill:#ffffff;font-family:Sans;">Model</text>
+  </g>
+  <g>
+    <g>
+      <rect width="160" height="160" x="385" y="30" style="fill:#00ff00;stroke:#00ff00;stroke-width:20;stroke-linejoin:round" />
+      <text x="430" y="120" style="font-size:30px;font-weight:bold;fill:#ffffff;font-family:Sans;">DOM</text>
+    </g>
+    <path d="m 167.3988,77.52427 c 58.7591,-53.77694 181.27814,-53.22385 239.4329,0" style="fill:none;stroke:#ffff00;stroke-width:5;stroke-linecap:round;marker-end:url(#TriangleOutM);" />
+  </g>
+  <g>
+    <g>
+      <rect width="160" height="160" x="410" y="150" style="fill:#ff0000;stroke:#ff0000;stroke-width:20;stroke-linejoin:round;" />
+      <text x="415" y="240" style="font-size:30px;font-weight:bold;fill:#ffffff;font-family:Sans;">Funzione</text>
+    </g>
+    <path d="m 192.3988,197.52427 c 58.7591,-53.77694 181.27814,-53.22385 239.4329,0" style="fill:none;stroke:#ffff00;stroke-width:5;stroke-linecap:round;marker-end:url(#TriangleOutM);" />
+  </g>
+  <g>
+    <g>
+      <rect width="160" height="160" x="435" y="270" style="fill:#0000ff;stroke:#0000ff;stroke-width:20;stroke-linejoin:round;" />
+      <text x="450" y="360" style="font-size:30px;font-weight:bold;fill:#ffffff;font-family:Sans;">Oggetto</text>
+    </g>
+    <path d="m 217.3988,317.52427 c 58.7591,-53.77694 181.27814,-53.22385 239.4329,0" style="fill:none;stroke:#ffff00;stroke-width:5;stroke-linecap:round;marker-end:url(#TriangleOutM);" />
+  </g>
+</svg>

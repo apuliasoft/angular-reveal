@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480">
+    <g transform="translate(0,-572.36218)">
+      <text x="11.337893" y="635.52563" id="author" style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">
+        <tspan x="11.337893" y="635.52563" style="font-size:12px;font-weight:normal;-inkscape-font-specification:Sans">di
+          <tspan style="font-size:12px;font-weight:normal;fill:#0000ff;-inkscape-font-specification:Sans">Pinco Pallino</tspan>
+        </tspan>
+      </text>
+      <g id="tags">
+        <text x="11.941408" y="857.86609" style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">
+          <tspan x="11.941408" y="857.86609" style="font-size:12px;font-weight:bold;fill:#000000;-inkscape-font-specification:Sans Bold">Tags</tspan>
+          <tspan x="11.941408" y="872.86609" style="font-size:12px;font-weight:normal;-inkscape-font-specification:Sans">
+            <tspan style="font-size:12px;font-weight:normal;fill:#0000ff;-inkscape-font-specification:Sans">lorem</tspan>,
+            <tspan style="font-size:12px;font-weight:normal;fill:#0000ff;-inkscape-font-specification:Sans">ipsum</tspan>
+          </tspan>
+        </text>
+        <path d="m 12.199917,837.16226 324.600163,0" style="fill:none;stroke:#000000;stroke-width:0.39983425px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <g id="post_tab">
+        <g transform="translate(9.985439,-0.92523881)">
+          <rect width="65.023392" height="87.247856" x="390.34546" y="615.81622" style="fill:#e3dbdb;fill-rule:evenodd;stroke:#000000;stroke-width:0.44667906px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <path d="m 390.21474,633.79306 64.88962,0" style="fill:none;stroke:#000000;stroke-width:0.40035808px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+        <text x="419.42944" y="627.09344" style="font-size:17.8671627px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+          <tspan x="419.42944" y="627.09344" style="font-size:12px">post</tspan>
+        </text>
+      </g>
+      <g id="author_tab">
+        <g>
+          <g transform="translate(159.98544,-0.92523881)">
+            <rect width="65.023392" height="87.247856" x="390.34546" y="615.81622" style="fill:#e3dbdb;fill-rule:evenodd;stroke:#000000;stroke-width:0.44667906px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+            <path d="m 390.21474,633.79306 64.88962,0" style="fill:none;stroke:#000000;stroke-width:0.40035808px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          </g>
+          <text x="563.20093" y="627.09344" style="font-size:17.8671627px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+            <tspan x="563.20093" y="627.09344" style="font-size:12px">autore</tspan>
+          </text>
+        </g>
+        <g>
+          <path d="m 465.42779,658.51491 84.72653,0" style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <text x="466.38547" y="656.19366" style="font-size:11.05875683px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+            <tspan x="466.38547" y="656.19366">N</tspan>
+          </text>
+          <text x="542.56732" y="656.65967" style="font-size:11.05875683px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+            <tspan x="542.56732" y="656.65967">1</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="tags_tab">
+        <g transform="translate(9.985439,299.07476)">
+          <rect width="65.023392" height="87.247856" x="390.34546" y="615.81622" style="fill:#e3dbdb;fill-rule:evenodd;stroke:#000000;stroke-width:0.44667906px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <path d="m 390.21474,633.79306 64.88962,0" style="fill:none;stroke:#000000;stroke-width:0.40035808px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+        <text x="423.32886" y="927.09344" style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">
+          <tspan x="423.32886" y="927.09344" style="font-size:12px;font-weight:normal;-inkscape-font-specification:Sans">tag</tspan>
+        </text>
+      </g>
+      <g id="comments_tab">
+        <g>
+          <g transform="translate(159.98544,149.07476)">
+            <rect width="65.023392" height="87.247856" x="390.34546" y="615.81622" style="fill:#e3dbdb;fill-rule:evenodd;stroke:#000000;stroke-width:0.44667906px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+            <path d="m 390.21474,633.79306 64.88962,0" style="fill:none;stroke:#000000;stroke-width:0.40035808px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          </g>
+          <text x="550.59155" y="777.09344" style="font-size:17.8671627px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+            <tspan x="550.59155" y="777.09344" style="font-size:12px">commento</tspan>
+          </text>
+        </g>
+        <g>
+          <path d="m 550.18996,788.71237 -45.20434,0 0,-109.09648 -39.64849,0" style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <text x="466.1058" y="677.8385" style="font-size:11.05875683px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+            <tspan x="466.1058" y="677.8385">1</tspan>
+          </text>
+          <text x="541.6214" y="786.99231" style="font-size:11.05875683px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+            <tspan x="541.6214" y="786.99231">N</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="post_tag_tab">
+        <g>
+          <g transform="translate(9.985439,149.07476)">
+            <rect width="65.023392" height="87.247856" x="390.34546" y="615.81622" style="fill:#e3dbdb;fill-rule:evenodd;stroke:#000000;stroke-width:0.44667906px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+            <path d="m 390.21474,633.79306 64.88962,0" style="fill:none;stroke:#000000;stroke-width:0.40035808px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          </g>
+          <text x="406.98413" y="777.09344" style="font-size:17.8671627px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+            <tspan x="406.98413" y="777.09344" style="font-size:12px">post_tag</tspan>
+          </text>
+        </g>
+        <g>
+          <path d="m 432.78881,702.19331 0,62.882" style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <text x="434.28598" y="763.44885" style="font-size:11.05875683px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+            <tspan x="434.28598" y="763.44885">1</tspan>
+          </text>
+          <text x="433.76489" y="711.67853" style="font-size:11.05875683px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+            <tspan x="433.76489" y="711.67853">N</tspan>
+          </text>
+        </g>
+        <g>
+          <path d="m 432.78881,852.08585 0,62.62945" style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <text x="433.78091" y="861.43372" style="font-size:11.05875683px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+            <tspan x="433.78091" y="861.43372">1</tspan>
+          </text>
+          <text x="433.51236" y="913.45654" style="font-size:11.05875683px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+            <tspan x="433.51236" y="913.45654">N</tspan>
+          </text>
+        </g>
+      </g>
+    <g id="comments">
+      <text x="11.101562" y="908.13562" transform="translate(0,-572.36218)" style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">
+        <tspan x="11.101562" y="908.13562" style="font-size:16px;font-weight:normal;-inkscape-font-specification:Sans">Commenti</tspan>
+      </text>
+      <g transform="translate(0,-570.88376)">
+        <rect width="304.46103" height="54.796703" ry="2.4780135" x="12.101648" y="917.98541" style="color:#000000;fill:#ececec;fill-opacity:1;stroke:#808080;stroke-width:0.2032956;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <text x="21.279297" y="932.8584" style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">
+          <tspan x="21.279297" y="932.8584" style="font-size:12px;font-weight:bold;-inkscape-font-specification:Sans Bold">Mario Rossi</tspan>
+          <tspan x="21.279297" y="947.8584" style="font-size:12px;font-weight:normal;-inkscape-font-specification:Sans">Lorem ipsum dolor sit amet, consectetuer</tspan>
+          <tspan x="21.279297" y="962.8584" style="font-size:12px;font-weight:normal;-inkscape-font-specification:Sans">adipiscing elit.</tspan>
+        </text>
+      </g>
+      <path d="m 12.199917,887.16226 324.600173,0" transform="translate(0,-572.36218)" style="fill:none;stroke:#000000;stroke-width:0.39983425px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <g>
+        <rect width="304.46103" height="54.796703" ry="2.4780135" x="12.101648" y="413.10165" style="color:#000000;fill:#ececec;fill-opacity:1;stroke:#808080;stroke-width:0.2032956;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <text x="21.90625" y="428.52536" style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">
+          <tspan x="21.90625" y="428.52536" style="font-size:12px;font-weight:bold;-inkscape-font-specification:Sans Bold">Luigi Bianchi</tspan>
+          <tspan x="21.90625" y="443.52536" style="font-size:12px;font-weight:normal;-inkscape-font-specification:Sans">Aliquam velit dui, commodo quis, porttitor</tspan>
+          <tspan x="21.90625" y="458.52536" style="font-size:12px;font-weight:normal;-inkscape-font-specification:Sans">eget, convallis et, nisi. Ut venenatis.</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="post">
+      <text x="9.2519531" y="25.007814" style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">
+      <tspan x="9.2519531" y="25.007814" style="font-size:24px;font-weight:normal;-inkscape-font-specification:Sans">Lorem Ipsum</tspan></text>
+      <text x="11.121094" y="46.496708" style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">
+        <tspan x="11.121094" y="46.496708" style="font-size:12px;font-weight:normal;fill:#808080;-inkscape-font-specification:Sans">20 settembre 2013</tspan>
+      </text>
+      <path d="m 12.213838,79.80008 324.600162,0" style="fill:none;stroke:#000000;stroke-width:0.39983425px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text x="11.285156" y="100.61063" style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans">
+        <tspan x="11.285156" y="100.61063">Lorem ipsum dolor sit amet, consectetuer adipiscing</tspan>
+        <tspan x="11.285156" y="115.61063">elit. In leo ante, venenatis eu, volutpat ut, imperdiet</tspan>
+        <tspan x="11.285156" y="130.61063">auctor, enim. Integer porta. Suspendisse fermentum.</tspan>
+        <tspan x="11.285156" y="145.61063">Praesent lacus. Vestibulum viverra varius enim. Sed a</tspan>
+        <tspan x="11.285156" y="160.61063">lorem ut est tincidunt consectetuer. Morbi urna.</tspan>
+        <tspan x="11.285156" y="175.61063">Nullam sapien mauris, venenatis at, fermentum at,</tspan>
+        <tspan x="11.285156" y="190.61063">tempus eu, urna. Etiam pede nunc, vestibulum vel,</tspan>
+        <tspan x="11.285156" y="205.61063">rutrum et, tincidunt eu, enim. Mauris ac massa</tspan>
+        <tspan x="11.285156" y="220.61063">vestibulum nisl facilisis viverra. Curabitur tincidunt</tspan>
+        <tspan x="11.285156" y="235.61063">tellus nec purus. Aliquam velit dui, commodo quis,</tspan>
+        <tspan x="11.285156" y="250.61063">porttitor eget, convallis et, nisi. Ut venenatis.</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
